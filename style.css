@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+}
+.header{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+body{
+    background-image: url(images/donation6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.button-primary{
+    background-color: rgb(255, 58, 97);
+
+}
