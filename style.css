@@ -1,17 +1,101 @@
-*{
+* {
     margin: 0px;
+    font-family: 'Inter', sans-serif;
 }
-.header{
-    text-align: center;
-    color: white;
-    margin-top: 50px;
-}
-body{
-    background-image: url(images/donation6.jpg);
+
+.header {
+    background-image: url(images/donation7.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 500px;
+    justify-content: center;
 }
-.button-primary{
-    background-color: rgb(255, 58, 97);
 
+.button-primary {
+    background-color: rgb(255, 58, 97);
+    padding: 10px 15px;
+    text-align: center;
+    border: 0;
+    border-radius: 5px;
+    color: aliceblue;
 }
+
+main {
+    max-width: 500px;
+    margin: 0px auto;
+}
+
+.header-title {
+    text-align: center;
+    color: white;
+    font-size: 65px;
+    padding: 100px 100px 0px;
+}
+
+.header-description {
+    text-align: center;
+    color: antiquewhite;
+    padding: 20px 200px;
+}
+
+.header-button {
+    margin-top: 5px;
+    text-align: center;
+}
+
+/* donate section */
+.donate-header {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+    font-weight: 1000px;
+}
+
+.donate-description {
+    text-align: center;
+    margin-top: 20px;
+    color: black;
+}
+
+.tk {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.tk-amount {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 10px;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.tk-amount2 {
+    border-radius: 5px;
+    border-color: rgb(255, 58, 97);
+    color: rgb(255, 58, 97);
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 10px;
+    font-size: 20px;
+    font-weight: 500px;
+}
+.form{
+    text-align: center;
+    margin-top: 20px;
+}
+.donate-button{
+    margin-top: 10px;
+    text-align: center;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    text-align: center;
+  }
+  
