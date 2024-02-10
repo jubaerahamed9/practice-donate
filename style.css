@@ -114,7 +114,8 @@ input[type=text] {
     gap: 15px;
     margin-top: 20px;
 }
-.icon{
+
+.icon {
     margin-top: 20px;
     padding-left: 10px;
 }
@@ -169,17 +170,16 @@ input[type=text] {
     padding-bottom: 20px;
 }
 
+/*  input color satyle*/
+
 .subscribe {
     background-color: antiquewhite;
     border-radius: 5px;
     text-align: center;
     padding: 60px 50px;
     margin-top: 20px;
-
+    margin-bottom: 30px;
 }
-
-
-/*  input color satyle*/
 
 input[type=email] {
     width: 60%;
